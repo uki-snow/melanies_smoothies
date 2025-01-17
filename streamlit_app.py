@@ -33,7 +33,7 @@ if ingredients_list:
             values ('""" + ingredients_string + """', '""" + name_on_order +"""')"""
 
     #st.write(ingredients_string)
-    st.write(my_insert_stmt)
+    #st.write(my_insert_stmt)
     #st.stop()
     time_to_insert=st.button('Submit Order')
     
